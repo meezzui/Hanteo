@@ -20,7 +20,7 @@ public class Currency {
         Scanner scanner = new Scanner(System.in);
         Currency currencyChange = new Currency();
 
-        System.out.print("서로 다른 종류의 통화를 입력하세요 (예: {1, 2, 3}): ");
+        System.out.print("서로 다른 종류의 통화를 입력하세요. 콤마와 숫자 사이에 공백을 넣어주세요. (예: {1, 2, 3}): ");
         String currenciesInput = scanner.nextLine().trim();
 
         // 입력 값이 유효한지 확인
